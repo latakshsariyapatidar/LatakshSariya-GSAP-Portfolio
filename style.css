@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: 'objective';
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+    padding: 0vh 3vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+#nav-right{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+
+#hero{
+    height: 60%;
+    margin-top: 5%;
+    width: 60%;
+    margin-left: 20%;
+    padding:2vw;
+
+}
+
+#hero h1{
+    font-size:9vw;
+    line-height: 9vw;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+}
+
+#hero h1:nth-child(2){
+    text-align: center;
+}
+
+#hero h1:nth-child(3){
+    text-align: right;
+}
+
+img{
+    height:500px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top:15%;
+    left: 40%;
+}
+
+#img1 img{
+    rotate: 12deg;
+
+}
+
+#img2 img{
+    rotate: 6.5deg;
+}
+
+#down-img{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    font-size: 3vw;
+}
